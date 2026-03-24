@@ -8,26 +8,10 @@ import Result from "../views/Result.vue";
 const router = createRouter({
   history: createWebHashHistory("/Bus_CBT/"),
   routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home,
-    },
-    {
-      path: "/ready",
-      name: "ready",
-      component: Ready,
-    },
-    {
-      path: "/exam",
-      name: "exam",
-      component: Exam,
-    },
-    {
-      path: "/result",
-      name: "result",
-      component: Result,
-    },
+    { path: "/", component: Home },
+    { path: "/ready", component: Ready },
+    { path: "/exam", component: Exam },
+    { path: "/result", component: Result },
   ],
 });
 
