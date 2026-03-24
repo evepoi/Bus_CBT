@@ -22,7 +22,7 @@ function goBack() {
 
       <div class="info-box">
         <p><strong>총 문항:</strong> 80문제</p>
-        <p><strong>출제 구성:</strong> 법 25 / 차량 15 / 안전 25 / 운수 15</p>
+        <p><strong>출제 구성:</strong> <br>1. 교통, 운수 관련 법규 및 교통사고 유형 25문항<br>차량 15 / 안전 25 / 운수 15</p>
         <p><strong>진행 방식:</strong> 모든 문제를 풀고 제출 시 채점됩니다.</p>
       </div>
 
