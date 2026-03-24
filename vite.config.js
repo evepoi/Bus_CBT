@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
   plugins: [vue()],
-  base: "./",
+  base: "/Bus_CBT/",
   server: {
     host: true,
     port: 5173,
