@@ -21,7 +21,9 @@ function goReady() {
 
       <div class="info-box">
         <p><strong>총 문항:</strong> 80문제</p>
-        <p><strong>출제 구성:</strong> 법 25 / 차량 15 / 안전 25 / 운수 15</p>
+        <p><strong>출제 구성:</strong><br>
+            1. 교통, 운수 관련 법규 및 교통사고 유형 25문항<br>
+            차량 15 / 안전 25 / 운수 15</p>
         <p>
           <strong>진행 방식:</strong>
           답안은 시험 완료 전까지 유지되며, 제출 후 결과와 오답이 표시됩니다.
