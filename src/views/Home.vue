@@ -1,3 +1,4 @@
+<!-- src/views/Home.vue -->
 <script setup>
 import { useRouter } from "vue-router";
 import { prepareExam } from "../store/exam";
@@ -91,5 +92,69 @@ function goReady() {
 
 .start-btn:hover {
   opacity: 0.92;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .home-wrap {
+    align-items: flex-start;
+    padding: 16px;
+    padding-top: 24px;
+  }
+
+  .home-card {
+    border-radius: 14px;
+    padding: 24px 18px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .info-box {
+    padding: 14px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  .start-btn {
+    width: 100%;
+    min-width: 0;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-wrap {
+    padding: 12px;
+    padding-top: 16px;
+  }
+
+  .home-card {
+    padding: 20px 16px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .info-box {
+    font-size: 14px;
+  }
+
+  .start-btn {
+    font-size: 15px;
+  }
 }
 </style>

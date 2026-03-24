@@ -1,3 +1,4 @@
+<!-- src/views/Exam.vue -->
 <script setup>
 import { computed } from "vue";
 import { useRouter } from "vue-router";
@@ -92,12 +93,31 @@ function handleSubmit() {
   padding: 20px;
 }
 
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .exam-wrap {
+    padding: 16px;
+  }
+}
+
 .exam-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
   margin-bottom: 16px;
+}
+
+/* 모바일에서 줄바꿈 */
+@media (max-width: 480px) {
+  .exam-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subject {
+    white-space: normal;
+  }
 }
 
 .subject {
@@ -120,6 +140,14 @@ function handleSubmit() {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
+  word-break: keep-all;
+}
+
+/* 모바일 글자 크기 */
+@media (max-width: 480px) {
+  .question {
+    font-size: 18px;
+  }
 }
 
 .choice-list {
@@ -137,6 +165,14 @@ function handleSubmit() {
   background: #fff;
   cursor: pointer;
   font-size: 16px;
+}
+
+/* 모바일 터치 영역 확대 */
+@media (max-width: 480px) {
+  .choice-btn {
+    padding: 16px;
+    font-size: 15px;
+  }
 }
 
 .choice-btn:hover {
@@ -160,6 +196,16 @@ function handleSubmit() {
   gap: 12px;
 }
 
+/* 모바일 버튼 고정 느낌 */
+@media (max-width: 480px) {
+  .nav-buttons {
+    position: sticky;
+    bottom: 0;
+    background: #f7f7f7;
+    padding-top: 12px;
+  }
+}
+
 .nav-buttons button,
 .submit-btn {
   min-width: 100px;
@@ -169,6 +215,15 @@ function handleSubmit() {
   background: #222;
   color: white;
   cursor: pointer;
+  flex: 1;
+}
+
+/* 모바일 버튼 균등 분배 */
+@media (max-width: 480px) {
+  .nav-buttons button,
+  .submit-btn {
+    min-width: auto;
+  }
 }
 
 .nav-buttons button:disabled {

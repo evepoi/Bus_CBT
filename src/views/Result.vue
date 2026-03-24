@@ -1,3 +1,4 @@
+<!-- src/views/Result.vue -->
 <script setup>
 import { computed } from "vue";
 import { useRouter } from "vue-router";
@@ -250,5 +251,107 @@ function handleReset() {
 
 .retry-btn:hover {
   opacity: 0.92;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .result-wrap {
+    padding: 16px;
+  }
+
+  .result-card {
+    padding: 24px 16px;
+    border-radius: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .summary-box {
+    padding: 14px;
+    line-height: 1.7;
+  }
+
+  .status-box {
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+
+  .wrong-title {
+    font-size: 20px;
+  }
+
+  .wrong-card {
+    padding: 14px;
+  }
+
+  .question-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .result-wrap {
+    padding: 12px;
+  }
+
+  .result-card {
+    padding: 20px 14px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .summary-box {
+    font-size: 14px;
+  }
+
+  .status-box {
+    font-size: 18px;
+  }
+
+  .wrong-title {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+
+  .wrong-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .question-text {
+    font-size: 15px;
+    word-break: keep-all;
+  }
+
+  .choice-list li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .answer-box {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .perfect-box {
+    padding: 16px;
+    font-size: 15px;
+  }
+
+  .retry-btn {
+    width: 100%;
+    min-width: 0;
+    padding: 14px 16px;
+    font-size: 15px;
+  }
 }
 </style>

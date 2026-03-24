@@ -1,3 +1,4 @@
+<!-- src/views/Ready.vue -->
 <script setup>
 import { useRouter } from "vue-router";
 import { startExam } from "../store/exam";
@@ -116,5 +117,70 @@ function goBack() {
 
 .start-btn:hover {
   opacity: 0.92;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .ready-wrap {
+    align-items: flex-start;
+    padding: 16px;
+    padding-top: 24px;
+  }
+
+  .ready-card {
+    padding: 24px 18px;
+    border-radius: 14px;
+  }
+
+  .title {
+    margin-bottom: 18px;
+    font-size: 23px;
+  }
+
+  .info-box {
+    padding: 14px;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  .notice-box {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ready-wrap {
+    padding: 12px;
+    padding-top: 16px;
+  }
+
+  .ready-card {
+    padding: 20px 16px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 21px;
+  }
+
+  .info-box {
+    font-size: 14px;
+  }
+
+  .notice-box {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .back-btn,
+  .start-btn {
+    width: 100%;
+    padding: 14px 12px;
+  }
 }
 </style>
