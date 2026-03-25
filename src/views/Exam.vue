@@ -50,6 +50,13 @@ function isImageChoice(choice) {
     choice.image.trim() !== ""
   );
 }
+
+function getImageSrc(path) {
+  if (!path) return "";
+
+  const cleanPath = path.startsWith("/") ? path.slice(1) : path;
+  return `${import.meta.env.BASE_URL}${cleanPath}`;
+}
 </script>
 
 <template>
@@ -86,7 +93,7 @@ function isImageChoice(choice) {
 
           <img
             v-else-if="isImageChoice(choice)"
-            :src="choice.image"
+            :src="getImageSrc(choice.image)"
             :alt="`보기 ${i + 1} 이미지`"
             class="choice-image"
           />
