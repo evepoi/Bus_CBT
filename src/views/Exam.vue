@@ -37,6 +37,19 @@ function handleSubmit() {
   submitExam();
   router.push("/result");
 }
+
+function isTextChoice(choice) {
+  return typeof choice === "string";
+}
+
+function isImageChoice(choice) {
+  return (
+    typeof choice === "object" &&
+    choice !== null &&
+    typeof choice.image === "string" &&
+    choice.image.trim() !== ""
+  );
+}
 </script>
 
 <template>
@@ -44,7 +57,9 @@ function handleSubmit() {
     <div class="exam-header">
       <div>
         <h3>{{ examState.currentIndex + 1 }} / {{ examState.selectedQuestions.length }}</h3>
-        <p class="progress">응답 완료: {{ answeredCount }} / {{ examState.selectedQuestions.length }}</p>
+        <p class="progress">
+          응답 완료: {{ answeredCount }} / {{ examState.selectedQuestions.length }}
+        </p>
       </div>
       <p class="subject">{{ current.subject }}</p>
     </div>
@@ -57,25 +72,42 @@ function handleSubmit() {
       <button
         v-for="(choice, i) in current.choices"
         :key="i"
+        type="button"
         class="choice-btn"
         :class="{ selected: selectedAnswer === i }"
         @click="selectAnswer(current.id, i)"
       >
         <span class="choice-number">{{ i + 1 }}.</span>
-        <span>{{ choice }}</span>
+
+        <div class="choice-content">
+          <span v-if="isTextChoice(choice)" class="choice-text">
+            {{ choice }}
+          </span>
+
+          <img
+            v-else-if="isImageChoice(choice)"
+            :src="choice.image"
+            :alt="`보기 ${i + 1} 이미지`"
+            class="choice-image"
+          />
+
+          <span v-else class="choice-text">
+            보기를 불러오지 못했습니다.
+          </span>
+        </div>
       </button>
     </div>
 
     <div class="nav-buttons">
-      <button @click="goPrevQuestion" :disabled="isFirstQuestion">
+      <button type="button" @click="goPrevQuestion" :disabled="isFirstQuestion">
         이전
       </button>
 
-      <button v-if="!isLastQuestion" @click="goNextQuestion">
+      <button v-if="!isLastQuestion" type="button" @click="goNextQuestion">
         다음
       </button>
 
-      <button v-else class="submit-btn" @click="handleSubmit">
+      <button v-else type="button" class="submit-btn" @click="handleSubmit">
         시험 완료
       </button>
     </div>
@@ -158,6 +190,9 @@ function handleSubmit() {
 
 .choice-btn {
   width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   text-align: left;
   padding: 14px 16px;
   border: 1px solid #dcdcdc;
@@ -186,7 +221,48 @@ function handleSubmit() {
 }
 
 .choice-number {
-  margin-right: 8px;
+  flex-shrink: 0;
+  width: 24px;
+  margin-top: 2px;
+}
+
+.choice-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.choice-text {
+  display: block;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+
+.choice-image {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  max-height: 260px;
+  margin: 0;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+
+/* 태블릿 */
+@media (max-width: 768px) {
+  .choice-image {
+    max-width: 100%;
+    max-height: 220px;
+  }
+}
+
+/* 모바일 */
+@media (max-width: 480px) {
+  .choice-image {
+    max-width: 100%;
+    max-height: 180px;
+  }
 }
 
 .nav-buttons {

@@ -79,6 +79,11 @@ function handleReset() {
             <p><strong>내 답:</strong> {{ getUserAnswerText(question) }}</p>
             <p><strong>정답:</strong> {{ getCorrectAnswerText(question) }}</p>
           </div>
+
+          <div v-if="question.explanation" class="explanation-box">
+            <p class="explanation-title"><strong>해설</strong></p>
+            <p class="explanation-text" v-html="question.explanation"></p>
+          </div>
         </div>
       </div>
 
@@ -221,6 +226,25 @@ function handleReset() {
   line-height: 1.7;
 }
 
+.explanation-box {
+  margin-top: 12px;
+  background: #f8f9fb;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  line-height: 1.7;
+}
+
+.explanation-title {
+  margin: 0 0 6px;
+}
+
+.explanation-text {
+  margin: 0;
+  color: #333;
+  white-space: pre-line;
+}
+
 .perfect-box {
   text-align: center;
   padding: 20px;
@@ -337,6 +361,12 @@ function handleReset() {
   }
 
   .answer-box {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .explanation-box {
     padding: 10px;
     font-size: 14px;
     line-height: 1.6;
