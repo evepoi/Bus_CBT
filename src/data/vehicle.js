@@ -1,7 +1,7 @@
 // src/data/vehicle.js
 export const vehicleQuestions = [
   {
-    id: 101,
+    id: 139,
     subject: "vehicle",
     question: "자동차의 일상점검을 실시할 때의 주의사항으로 틀린 것은?",
     choices: [
@@ -12,7 +12,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 102,
+    id: 140,
     subject: "vehicle",
     question: "일상점검 중 주의사항이 아닌 것은?",
     choices: [
@@ -23,7 +23,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 103,
+    id: 141,
     subject: "vehicle",
     question: "자동차의 일상점검을 실시할 때 운전석 점검내용이 아닌 것은?",
     choices: [
@@ -34,7 +34,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 104,
+    id: 142,
     subject: "vehicle",
     question: "클러치의 자유간극 점검과 관련이 있는 일상점검 항목은?",
     choices: [
@@ -45,18 +45,18 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 105,
+    id: 143,
     subject: "vehicle",
     question: "운행후 점검사항 중 외관점검에 해당되지 않는 것은?",
     choices: [
-        "헨진오일의 양은 적당하며 저도는 이상이 없는지 여부",
+        "엔진오일의 양은 적당하며 점도는 이상이 없는지 여부",
         "차체가 기울지 않았는지 여부",
         "차체에 부품이 떨어진 곳은 없는지 여부",
         "후드(보닛)의 고리가 빠지지는 않았는지 여부"],
     answer: 0
   },
   {
-    id: 106,
+    id: 144,
     subject: "vehicle",
     question: "폭발성 물질을 자동차 내에 방치할 경우 가장 위험한 계절은?",
     choices: [
@@ -67,7 +67,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 107,
+    id: 145,
     subject: "vehicle",
     question: "다음 중 소화기 사용방법으로 틀린 것은?",
     choices: [
@@ -78,7 +78,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 108,
+    id: 146,
     subject: "vehicle",
     question: "운행 전 충분한 시계를 확보하기 위해 조정하는 것은?",
     choices: [
@@ -89,7 +89,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 109,
+    id: 147,
     subject: "vehicle",
     question: "터보차저의 주요 고장원인이 아닌 것은?",
     choices: [
@@ -100,7 +100,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 110,
+    id: 148,
     subject: "vehicle",
     question: "자동차 터보자처의 관리요령으로 맞지 않는 것은?",
     choices: [
@@ -111,7 +111,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 111,
+    id: 149,
     subject: "vehicle",
     question: "자동차 내장을 세적할 때 사용하면 변색되거나 손상을 줄 수 있는 것이 아닌 것은?",
     choices: [
@@ -122,7 +122,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 112,
+    id: 150,
     subject: "vehicle",
     question: "천연가스를 고압으로 압축하여 고압 압력용기에 저장한 기체상태의 연료를 무엇이라 하는가?",
     choices: [
@@ -133,7 +133,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 113,
+    id: 151,
     subject: "vehicle",
     question: "천연가스를 고압으로 압축하여 고압 압력용기에 저장한 기체상태의 연료는?",
     choices: [
@@ -144,7 +144,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 114,
+    id: 152,
     subject: "vehicle",
     question: "압축천연가스 자동차의 가스공급라인에서 가스가 누출될 때의 조치요령으로 옳지 않는 것은?",
     choices: [
@@ -155,7 +155,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 115,
+    id: 153,
     subject: "vehicle",
     question: "CNG를 연료로 사용하는 자동차의 계기판에 CNG 램프가 점등될 경우 조치사항으로 맞는 것은?",
     choices: [
@@ -166,7 +166,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 116,
+    id: 154,
     subject: "vehicle",
     question: "험한 도로에서 주행할 때 자동차 조작요령으로 적합하지 않는 것은?",
     choices: [
@@ -177,18 +177,18 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 117,
+    id: 155,
     subject: "vehicle",
     question: "악천후 시 주행방법에 대한 설명 중 틀린 것은?",
     choices: [
-        "비가 내릴 때에는 노면이 미끄러우므로 급제동을 피하고, 차간거리를 추분히 유지한다.",
+        "비가 내릴 때에는 노면이 미끄러우므로 급제동을 피하고, 차간거리를 충분히 유지한다.",
         "브레이크 라이닝이 물에 젖어 있어도 제동에는 문제가 없으므로 계속 주행해도 된다.",
-        "폭우가 내릴 경우에는 시야 확보가 어려우므로 충분한 제공거리를 호가보할 수 있도록 감속한다.",
-        "안개가 끼었거나 기상조건이 좋지 않아 시게가 블량할 경우에는 속도를 줄이고, 미등 및 안개등 또는 전조등을 점등하고 운행한다."],
+        "폭우가 내릴 경우에는 시야 확보가 어려우므로 충분한 제동거리를 확보할 수 있도록 감속한다.",
+        "안개가 끼었거나 기상조건이 좋지 않아 시계가 블량할 경우에는 속도를 줄이고, 미등 및 안개등 또는 전조등을 점등하고 운행한다."],
     answer: 1
   },
   {
-    id: 118,
+    id: 156,
     subject: "vehicle",
     question: "겨울철 타이어에 체인을 장착한 경우 안전하게 운행하려면 일반적으로 몇 km/h 이내로 주행하여야 하는가?",
     choices: [
@@ -196,6 +196,39 @@ export const vehicleQuestions = [
         "40km/h 이내",
         "50km/h 이내",
         "60km/h 이내"],
+    answer: 0
+  },
+  {
+    id: 157,
+    subject: "vehicle",
+    question: "오버히트(Over Heat)가 밸상하는 원인은?",
+    choices: [
+        "냉각수 부족 또는 누수",
+        "에어컨 팬 작동 불량",
+        "밸브 간극 이상",
+        "깨끗한 브레이크 오일"],
+    answer: 0
+  },
+  {
+    id: 158,
+    subject: "vehicle",
+    question: "오버히트(엔진 과열)가 발생하는 원인이 아닌 것은?",
+    choices: [
+        "냉각수가 부족한 경우",
+        "배터리 전압이 낮을 경우",
+        "냉각수에 부동색이 들어 있지 않는 경우(추운 날씨)",
+        "엔진 내부가 얼어 냉각수가 순환하지 않는 경우"],
+    answer: 1
+  },
+  {
+    id: 159,
+    subject: "vehicle",
+    question: "겨울철 자동차 운행요령으로 적합하지 않는 것은?",
+    choices: [
+        "엔진 시동 후에는 바로 운행한다.",
+        "차의 하체 부위의 얼음 덩어리를 운행 전에 제거한다.",
+        "가속페달이나 핸들을 급조작하지 않는다.",
+        "후륜구동 자동차는 뒷바퀴에 타이어체인을 장착하여야 한다."],
     answer: 0
   },
 ];

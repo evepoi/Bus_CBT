@@ -247,8 +247,8 @@ function getImageSrc(path) {
 .choice-image {
   display: block;
   width: 100%;
-  max-width: 420px;
-  max-height: 260px;
+  max-width: 150px;
+  max-height: 80px;
   margin: 0;
   object-fit: contain;
   border-radius: 8px;
@@ -268,7 +268,7 @@ function getImageSrc(path) {
 @media (max-width: 480px) {
   .choice-image {
     max-width: 100%;
-    max-height: 180px;
+    max-height: 100px;
   }
 }
 
