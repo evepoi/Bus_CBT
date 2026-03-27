@@ -1,7 +1,7 @@
 // src/data/safety.js
 export const safetyQuestions = [
   {
-    id: 201,
+    id: 208,
     subject: "safety",
     question: "교통사고 요인의 가설적 연쇄과정 중 인간요인에 의한 연쇄과정과 거리가 먼 것은?",
     choices: [
@@ -11,7 +11,7 @@ export const safetyQuestions = [
         "비가 오고 있다."],
     answer: 3
   },
-  {id: 202,
+  {id: 209,
     subject: "safety",
     question: "교통사고의 구성요인에 포함되지 않는 것은?",
     choices: [
@@ -22,7 +22,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 203,
+    id: 210,
     subject: "safety",
     question: "교통사고요인의 복합적 연쇄과정 중 환경요인에 의한 연쇄과정에 속하는 것은?",
     choices: [
@@ -33,18 +33,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 204,
-    subject: "safety",
-    question: "교통사고요인의 복합적 연쇄과정 중 환경요인에 의한 연쇄과정에 속하는 것은?",
-    choices: [
-        "초조하게 운전을 한다.",
-        "과속으로 운전을 한다.",
-        "브레이크 제동력의 약화",
-        "도로의 마찰계수의 저하"],
-    answer: 3
-  },
-  {
-    id: 205,
+    id: 211,
     subject: "safety",
     question: "교차로 신호위반 사고요인과 관계가 먼 것은?",
     choices: [
@@ -55,7 +44,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 206,
+    id: 212,
     subject: "safety",
     question: "도로 노면에 대한 관찰 및 주의의 결여와 가장 관계가 많은 교통사고 유형은?",
     choices: [
@@ -66,18 +55,18 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 207,
+    id: 213,
     subject: "safety",
-    question: "버스 운전자로서의 기본 자세 중 승용차와 차별되는버스의 운전특성과 거리가 먼 것은?",
+    question: "버스 운전자로서의 기본 자세 중 승용차와 차별되는 버스의 운전특성과 거리가 먼 것은?",
     choices: [
         "주의의 부담이 크다.",
-        "5km 정도의 주행경험만 되면 충분하다.",
+        "5만km 정도의 주행경험만 되면 충분하다.",
         "승객의 안전을 책임진다.",
         "서비스 만족도를 높여야 한다."],
     answer: 1
   },
   {
-    id: 208,
+    id: 214,
     subject: "safety",
     question: "운전 중의 위험사태 판단과 관련된 능력은 개인차가 있지만 대채로 무엇과 밀접한 관계를 갖는가?",
     choices: [
@@ -88,7 +77,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 209,
+    id: 215,
     subject: "safety",
     question: "초보운전자가 인식하는 안전에 대한 설명과 거리가 먼 것은?",
     choices: [
@@ -99,7 +88,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 210,
+    id: 216,
     subject: "safety",
     question: "차의 운행 시 객관적 안전인식이 높은 사람은 어떤 사람인가?",
     choices: [
@@ -110,7 +99,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 211,
+    id: 217,
     subject: "safety",
     question: "운전가가 운전 중 눈을 통해 얻는 운전 관련 정보의 비율은 어느 정도나 되는가?",
     choices: [
@@ -121,7 +110,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 212,
+    id: 218,
     subject: "safety",
     question: "도로교통법령상 제1종 운전면허의 시력 기준은?",
     choices: [
@@ -132,9 +121,9 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 213,
+    id: 219,
     subject: "safety",
-    question: "일정 거리에서 일정한 시표를 보고 모양을 확인할 수 있는지를 가지고 층정하는 시력을 무엇이라 하는가?",
+    question: "일정 거리에서 일정한 시표를 보고 모양을 확인할 수 있는지를 가지고 측정하는 시력을 무엇이라 하는가?",
     choices: [
         "정지시력",
         "동체시력",
@@ -143,7 +132,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 214,
+    id: 220,
     subject: "safety",
     question: "운전 피료를 푸는 법으로 부적절한 것은?",
     choices: [
@@ -154,7 +143,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 215,
+    id: 221,
     subject: "safety",
     question: "과로한 상태에서 교통표지를 못 보거나 보행자를 알아보지 못하는 것과 관계있는 것은?",
     choices: [
@@ -165,7 +154,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 216,
+    id: 222,
     subject: "safety",
     question: "혈중알코올 농도에 영향을 미치는 것이 아닌 것은?",
     choices: [
@@ -176,18 +165,18 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 217,
+    id: 223,
     subject: "safety",
     question: "환각제에 대한 설명 중 맞지 않는 것은?",
     choices: [
-        "환각제는 고혈압 치료제로 쓰이며, 일반인이 매입. 복용할 수 있는 약물이다.",
+        "환각제는 고혈압 치료제로 쓰이며, 일반인이 매입·복용할 수 있는 약물이다.",
         "환각제는 인간의 시각을 포함한 제반 감각기관과 인지능력, 사고기능을 변화 시킨다.",
         "환각제에 따라서는 인간의 방향감각과 거리, 그리고 시간에 대한 감각을 왜곡시키기도 한다.",
         "복용한 사람은 존재하지도 않는 대상을 보고, 듣고, 느끼며 심지어 냄새를 맡기도 한다."],
     answer: 0
   },
   {
-    id: 218,
+    id: 224,
     subject: "safety",
     question: "횡단보도 부근으로 보행자가 횡단하고 있을 때 가장 올바른 운전 방법은?",
     choices: [
@@ -198,7 +187,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 219,
+    id: 225,
     subject: "safety",
     question: "운전자에게 보행자와의 사고를 피하는 데 대한 특별한 주의 의무를 부과하는 이유중 부적절한 것은?",
     choices: [
@@ -209,18 +198,18 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 220,
+    id: 226,
     subject: "safety",
     question: "대형 차량과 일정한 공간적 거리를 두어야 하는 이유는?",
     choices: [
         "정기거리가 상대적으로 짧다.",
         "점유공간이 상대적으로 많다.",
-        "전. 후방의 시야를 제약한다.",
+        "전·후방의 시야를 제약한다.",
         "대형차는 갑자가 정지하기가 어렵다."],
     answer: 2
   },
   {
-    id: 221,
+    id: 227,
     subject: "safety",
     question: "대형자동차의 특성이라 볼 수 없는 것은?",
     choices: [
@@ -231,7 +220,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 222,
+    id: 228,
     subject: "safety",
     question: "차가 커브를 돌 때 주행하던 차로나 도로를 벗어나려는 힘을 무엇이라고 하는가?",
     choices: [
@@ -242,7 +231,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 223,
+    id: 229,
     subject: "safety",
     question: "비가 자주 오거나 습지가 높은 날 브레이크 드럼에 미세한 녹이 발생하고 마찰계수가 높아져 평소보다 브레이크가 지나치게 에민하게 작동한는 현상은?",
     choices: [
@@ -253,9 +242,9 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 224,
+    id: 230,
     subject: "safety",
-    question: "차량의 핸들을 돌렸을 때 앞바퀴의 안족 궤적과 뒷바퀴의 안쪽 궤적 간의 차이를 무엇이라 하는가?",
+    question: "차량의 핸들을 돌렸을 때 앞바퀴의 안쪽 궤적과 뒷바퀴의 안쪽 궤적 간의 차이를 무엇이라 하는가?",
     choices: [
         "축거",
         "윤거",
@@ -264,7 +253,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 225,
+    id: 231,
     subject: "safety",
     question: "타이어의 마모를 촉진하는 환경이라고 할 수 없는 것은?",
     choices: [
@@ -275,9 +264,9 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 226,
+    id: 232,
     subject: "safety",
-    question: "운전가가 제동을 시작하여 자동차가 완전히 정지할 때까지 진행한 시간을 무엇이라 하는가?",
+    question: "운전자가 제동을 시작하여 자동차가 완전히 정지할 때까지 진행한 시간을 무엇이라 하는가?",
     choices: [
         "제동시간",
         "정지시간",
@@ -286,7 +275,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 227,
+    id: 233,
     subject: "safety",
     question: "정지거리에 영향을 미치는 요인 중 운전자 요인이 아닌 것은?",
     choices: [
@@ -297,20 +286,20 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 228,
+    id: 234,
     subject: "safety",
     question: "다음 중 옳은 것은?",
     choices: [
         "안전거리=정지거리+제동거리",
         "공주거리=정지거리+제동거리",
         "제동거리=안전거리+공주거리",
-        "정지거리=공죽리+제동거리"],
+        "정지거리=공주거리+제동거리"],
     answer: 3
   },
   {
-    id: 229,
+    id: 235,
     subject: "safety",
-    question: "2차로 앞지그리 금지구간에서 자동차의 원활한 교통을 도모하고, 도로 안전성을 제고하기 위해 길어깨(갓길) 쪽으로 설치하는 저속 자동차의 주행차로를 무엇이라 하는가?",
+    question: "2차로 앞지르기 금지구간에서 자동차의 원활한 교통을 도모하고, 도로 안전성을 제고하기 위해 길어깨(갓길) 쪽으로 설치하는 저속 자동차의 주행차로를 무엇이라 하는가?",
     choices: [
         "회전차로",
         "양보차로",
@@ -319,7 +308,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 230,
+    id: 236,
     subject: "safety",
     question: "자동차의 가속 및 감속을 위해 설치하는 차로로 교차로, 인터체인지 등에 주로 설치하는 차로는?",
     choices: [
@@ -328,5 +317,82 @@ export const safetyQuestions = [
         "오르막차로",
         "변속차로"],
     answer: 3
+  },
+  {
+    id: 237,
+    subject: "safety",
+    question: "다음 중 교통약자 이동편의 증진법에서 정의하는 교통약자가 아닌 사람은?",
+    choices: [
+        "어린이",
+        "장애인",
+        "고령자",
+        "부녀자"],
+    answer: 3
+  },
+  {
+    id: 238,
+    subject: "safety",
+    question: "평면고속부에서 자동차가 원심력에 저항할 수 있도록 하기 위하여 설치하는 횡단경사를 무엇이라 하는가?",
+    choices: [
+        "시거",
+        "축대",
+        "편경사",
+        "종단경사"],
+    answer: 2
+  },
+  {
+    id: 239,
+    subject: "safety",
+    question: "곡선부 등에 차량의 이탈사고를 방지하기 위해 설치하는 시설과 관계있는 것은?",
+    choices: [
+        "방호울타리",
+        "갈매기 표지",
+        "측대",
+        "편경사"],
+    answer: 0
+  },
+  {
+    id: 240,
+    subject: "safety",
+    question: "평면곡선 도로를 주행할 때 원심력에 의해 곡선 바깥쪽으로 진행하려는 힘과 관련이 없는 것은?",
+    choices: [
+        "평면곡선 반지름",
+        "시선유도시설",
+        "타이어와 노면의 횡방향 마찰력",
+        "편경사"],
+    answer: 1
+  },
+  {
+    id: 241,
+    subject: "safety",
+    question: "종단선형과 교통사고와의 관계 중 종단경사가 커짐에 따라 사고율은 어떻게 나타나는가?",
+    choices: [
+        "평지에서의 사고율이 내리막에서보다 높게 나타난다.",
+        "오르막길에서의 사고율이 평지에서보다 높게 나타난다.",
+        "내리막길에서의 사고율이 평지와 같이 나타난다.",
+        "내리막길에서의 사고율이 오르막길에서보다 높게 나타난다."],
+    answer: 3
+  },
+  {
+    id: 242,
+    subject: "safety",
+    question: "차로를 구분하기 위해 설치한 것으로 맞는 것은?",
+    choices: [
+        "자전거도로",
+        "길어깨",
+        "차선",
+        "주차대"],
+    answer: 2
+  },
+  {
+    id: 243,
+    subject: "safety",
+    question: "포장된 길어깨(갓길)의 장점으로 맞지 않는 것은?",
+    choices: [
+        "차도 끝의 처짐이나 이탈을 방지한다.",
+        "물의 흐름으로 인한 노면 패임을 방지한다.",
+        "승용자동차의 주행을 원할하게 한다.",
+        "보도가 없는 도로에서는 보행의 편의를 제공한다."],
+    answer: 2
   },
 ];
