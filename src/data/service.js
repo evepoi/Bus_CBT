@@ -1,7 +1,7 @@
 // src/data/service.js
 export const serviceQuestions = [
   {
-    id: 301,
+    id: 305,
     subject: "service",
     question: "올바른 서비스 제공을 위한 요소가 아닌 것은?",
     choices: [
@@ -12,7 +12,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 302,
+    id: 306,
     subject: "service",
     question: "올바른 고색서비스 제공을 위한 기본요소가 아닌 것은?",
     choices: [
@@ -23,7 +23,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 303,
+    id: 307,
     subject: "service",
     question: "고객서비스의 특징 중 무형성에 대한 설명으로 바르지 못한 것은?",
     choices: [
@@ -34,7 +34,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 304,
+    id: 308,
     subject: "service",
     question: "승객만존의 개념 및 중요성에 대한 설명으로 옳지 않은 것은?",
     choices: [
@@ -45,7 +45,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 305,
+    id: 309,
     subject: "service",
     question: "다음 중 일반적인 승객의 요구와 거리가 먼 것은?",
     choices: [
@@ -56,7 +56,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 306,
+    id: 310,
     subject: "service",
     question: "승객만족을 위한 기본예절에 대한 설명한 것으로 맞지 않는 것은?",
     choices: [
@@ -67,7 +67,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 307,
+    id: 311,
     subject: "service",
     question: "승객만족을 위한 기본예절이라 볼 수 없는 것은?",
     choices: [
@@ -78,7 +78,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 308,
+    id: 312,
     subject: "service",
     question: "승객을 위해서는 이미지 관리도 매우 중요하다. 이에 대한 설명으로 적절하지 않는 것은?",
     choices: [
@@ -89,7 +89,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 309,
+    id: 313,
     subject: "service",
     question: "승객에게 불쾌감을 주는 몸가짐과 거리가 먼 것은?",
     choices: [
@@ -100,7 +100,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 310,
+    id: 314,
     subject: "service",
     question: "승객와의 대화 시 주의사항으로 옳지 않은 것은?",
     choices: [
@@ -111,7 +111,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 311,
+    id: 315,
     subject: "service",
     question: "다음 중 올바른 직업윤리는?",
     choices: [
@@ -122,7 +122,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 312,
+    id: 316,
     subject: "service",
     question: "운송사업용 자동차의 운행기록계와 속도제한장치 관련 기준을 규정하고 있는 법규는?",
     choices: [
@@ -133,7 +133,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 313,
+    id: 317,
     subject: "service",
     question: "자동차의 장치 및 설비 등에 관한 준수사항 중에서 옳지 않은 것은?",
     choices: [
@@ -144,7 +144,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 314,
+    id: 318,
     subject: "service",
     question: "운수종사자의 준수사항이 아닌 것은?",
     choices: [
@@ -155,7 +155,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 315,
+    id: 319,
     subject: "service",
     question: "운수종사자의 준수사항 중 여객의 안전과 사고예방을 위하여 운행 전 사업용 자동차의 이상 유무를 확인해야 하는 사항은?",
     choices: [
@@ -166,29 +166,29 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 316,
+    id: 320,
     subject: "service",
     question: "운수종사자는 운잔운행과 다른 승객의 편의를 위하여 어떤 행동에 대한 제지하고 필요한 사항을 안내해야 하는데, 다음 행위 중에서 제지할 수 없는 행위는?",
     choices: [
         "폭발성 물질, 인화성 물질 등의 우험물을 자동차 안으로 가지고 들어오는 행위",
         "전용 운반상자 없이 애완동물을 자동차 안으로 데리고 들어오는 행위",
-        "저동차의 출입구를 막을 우려가 있는 물품을 자동차 안으로 가지고 들어오는 행위",
+        "자동차의 출입구를 막을 우려가 있는 물품을 자동차 안으로 가지고 들어오는 행위",
         "장애인 보조견을 자동차 안으로 데리고 들어오는 행위"],
     answer: 3
   },
   {
-    id: 317,
+    id: 321,
     subject: "service",
-    question: "운소종사자가 지켜야 할 준수사항으로 옳지 않은 것은?",
+    question: "운수종사자가 지켜야 할 준수사항으로 옳지 않은 것은?",
     choices: [
         "여객이 전용 운반 상자에 넣은 애완동물을 자동차 안으로 데리고 오는 경우 이를 제지하고 필요한 사항은 안내해야 한다.",
-        "여객 자동차 운수사업법 시행규칙에 따라 운송사업자가 지시하는 사항을 따라야 한다.",
+        "여객자동차 운수사업법 시행규칙에 따라 운송사업자가 지시하는 사항을 따라야 한다.",
         "관계 공무원으로부터 운전면허증 등의 자격증 제시 요구를 받으면 즉시 따라야 한다.",
         "여객자동차 운송사업에 사용되는 자동차 안에서 담배를 피워서는 안 된다."],
     answer: 0
   },
   {
-    id: 318,
+    id: 322,
     subject: "service",
     question: "운전자의 인성과 습관이 운전예절에 미치는 요인에 관한 설명으로 옳지 않은 것은?",
     choices: [
@@ -199,9 +199,9 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 319,
+    id: 323,
     subject: "service",
-    question: "다음중 운전가가 지켜야 할 행동으로 적절하지 않은 것은?",
+    question: "다음 중 운전자가 지켜야 할 행동으로 적절하지 않은 것은?",
     choices: [
         "차로변경의 도움을 받았을 때에는 비상등을 2~3회 작동시켜 양보에 대한 고마움을 표현한다.",
         "보행자가 통행하고 있는 횡단보도 내로 차가 진입하지 않도록 정지선을 지킨다.",
@@ -210,14 +210,36 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 320,
+    id: 324,
     subject: "service",
     question: "전조등의 올바른 사용에 해당되지 않는 것은?",
     choices: [
         "야간운전의 안전운행을 위하여 필요한 경우 상향등을 사용한다.",
         "반대차로에 차가 있으면 상대 운전자의 안전을 위하여 전조등을 변환빔(하향 등)으로 조정한다.",
         "반대차로 운전자의 눈부심 현상 방지를 위하여 변환빔(하향등)으로 조정한다.",
-        "야간에 커브 길을 진입하기 전 반대차로이 차량 운행과 관계없이 상향등을 사용한다."],
+        "야간에 커브 길을 진입하기 전 반대차로의 차량 운행과 관계없이 상향등을 사용한다."],
+    answer: 3
+  },
+  {
+    id: 325,
+    subject: "service",
+    question: "운전자가 삼가야 하는 행동을 기술한 것 중에서 올바르지 않은 것은?",
+    choices: [
+        "신호등이 바뀌기 전에 빨리 출발하나고 전조등을 켰다 껏다를 하지 않는다.",
+        "운행 중에 갑자기 끼어들지 않는다.",
+        "필요 시 과속으로 운행하며 급브레이크를 밟는다.",
+        "경음기 버튼을 작동시켜 다른 운전자가를 놀라게 하지 않는다."],
+    answer: 2
+  },
+  {
+    id: 326,
+    subject: "service",
+    question: "운전자가 취득한 운전면허로 운전할 수 있는 차종 이외의 차량은 운전을 금지하고 있다. 이와 같이 취득한 운전면허로 운전할 수 있는 차종을 규정해 놓은 법은?",
+    choices: [
+        "교통안전법",
+        "자동차관리법",
+        "여객자동차운수사업법",
+        "도로교통법"],
     answer: 3
   },
 ];
