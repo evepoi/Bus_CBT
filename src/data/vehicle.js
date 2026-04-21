@@ -1,7 +1,7 @@
 // src/data/vehicle.js
 export const vehicleQuestions = [
   {
-    id: 139,
+    id: 201,
     subject: "vehicle",
     question: "자동차의 일상점검을 실시할 때의 주의사항으로 틀린 것은?",
     choices: [
@@ -12,7 +12,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 140,
+    id: 202,
     subject: "vehicle",
     question: "일상점검 중 주의사항이 아닌 것은?",
     choices: [
@@ -23,7 +23,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 141,
+    id: 203,
     subject: "vehicle",
     question: "자동차의 일상점검을 실시할 때 운전석 점검내용이 아닌 것은?",
     choices: [
@@ -34,7 +34,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 142,
+    id: 204,
     subject: "vehicle",
     question: "클러치의 자유간극 점검과 관련이 있는 일상점검 항목은?",
     choices: [
@@ -45,7 +45,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 143,
+    id: 205,
     subject: "vehicle",
     question: "운행후 점검사항 중 외관점검에 해당되지 않는 것은?",
     choices: [
@@ -56,7 +56,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 144,
+    id: 206,
     subject: "vehicle",
     question: "폭발성 물질을 자동차 내에 방치할 경우 가장 위험한 계절은?",
     choices: [
@@ -67,7 +67,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 145,
+    id: 207,
     subject: "vehicle",
     question: "다음 중 소화기 사용방법으로 틀린 것은?",
     choices: [
@@ -78,7 +78,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 146,
+    id: 208,
     subject: "vehicle",
     question: "운행 전 충분한 시계를 확보하기 위해 조정하는 것은?",
     choices: [
@@ -89,7 +89,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 147,
+    id: 209,
     subject: "vehicle",
     question: "터보차저의 주요 고장원인이 아닌 것은?",
     choices: [
@@ -100,7 +100,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 148,
+    id: 210,
     subject: "vehicle",
     question: "자동차 터보자처의 관리요령으로 맞지 않는 것은?",
     choices: [
@@ -111,7 +111,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 149,
+    id: 211,
     subject: "vehicle",
     question: "자동차 내장을 세적할 때 사용하면 변색되거나 손상을 줄 수 있는 것이 아닌 것은?",
     choices: [
@@ -122,7 +122,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 150,
+    id: 212,
     subject: "vehicle",
     question: "천연가스를 고압으로 압축하여 고압 압력용기에 저장한 기체상태의 연료를 무엇이라 하는가?",
     choices: [
@@ -133,7 +133,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 151,
+    id: 213,
     subject: "vehicle",
     question: "천연가스를 고압으로 압축하여 고압 압력용기에 저장한 기체상태의 연료는?",
     choices: [
@@ -144,18 +144,18 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 152,
+    id: 214,
     subject: "vehicle",
     question: "압축천연가스 자동차의 가스공급라인에서 가스가 누출될 때의 조치요령으로 옳지 않는 것은?",
     choices: [
         "자동차 부근으로 화기 접근을 금지한다.",
         "탑승하고 있는 승객은 안전한 곳으로 대피시킨다.",
         "가스공급라인의 몸체가 파열된 경우 용접하여 재사용한다.",
-        "누설 부위를 비눗물 또는 가스검전지로 확인한다."],
+        "누설 부위를 비눗물 또는 가스검진기로 확인한다."],
     answer: 2
   },
   {
-    id: 153,
+    id: 215,
     subject: "vehicle",
     question: "CNG를 연료로 사용하는 자동차의 계기판에 CNG 램프가 점등될 경우 조치사항으로 맞는 것은?",
     choices: [
@@ -166,7 +166,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 154,
+    id: 216,
     subject: "vehicle",
     question: "험한 도로에서 주행할 때 자동차 조작요령으로 적합하지 않는 것은?",
     choices: [
@@ -177,7 +177,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 155,
+    id: 217,
     subject: "vehicle",
     question: "악천후 시 주행방법에 대한 설명 중 틀린 것은?",
     choices: [
@@ -188,7 +188,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 156,
+    id: 218,
     subject: "vehicle",
     question: "겨울철 타이어에 체인을 장착한 경우 안전하게 운행하려면 일반적으로 몇 km/h 이내로 주행하여야 하는가?",
     choices: [
@@ -199,7 +199,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 157,
+    id: 219,
     subject: "vehicle",
     question: "오버히트(Over Heat)가 밸상하는 원인은?",
     choices: [
@@ -210,7 +210,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 158,
+    id: 220,
     subject: "vehicle",
     question: "오버히트(엔진 과열)가 발생하는 원인이 아닌 것은?",
     choices: [
@@ -221,7 +221,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 159,
+    id: 221,
     subject: "vehicle",
     question: "겨울철 자동차 운행요령으로 적합하지 않는 것은?",
     choices: [
@@ -232,7 +232,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 160,
+    id: 222,
     subject: "vehicle",
     question: "고속도로를 운행할 때 자동차의 안전운행 요령으로 적합하지 않는 것은?",
     choices: [
@@ -243,18 +243,18 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 161,
+    id: 223,
     subject: "vehicle",
     question: "시동키를 꽂지 않았지만 키를 차 안에 두고 어린이들만 차 내에 남겨 둘 경우 발생할 수 있는 문제로 거리가 먼 것은?",
     choices: [
-        "어린들의 행동을 모방하여 시동키를 작동시킬 수 있다.",
+        "어른들의 행동을 모방하여 시동키를 작동시킬 수 있다.",
         "에어탱크의 공기압이 급격히 저하된다.",
         "차 안의 다른 조작 스위치 등을 작동시킬 수 있다.",
         "차를 조작하여 심각한 신체 상해를 초래할 수 있다."],
     answer: 1
   },
   {
-    id: 162,
+    id: 224,
     subject: "vehicle",
     question: "다음 중 버스의 화물실 도어를 개폐하는 요령으로 적합하지 않은 것은?",
     choices: [
@@ -265,7 +265,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 163,
+    id: 225,
     subject: "vehicle",
     question: "연료주입구 개폐방법으로 틀린 것은?",
     choices: [
@@ -276,7 +276,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 164,
+    id: 226,
     subject: "vehicle",
     question: "자동차의 좌석에서 등받이 맨 위쪽의 머리를 받치는 부분의 역할을 하는 것은?",
     choices: [
@@ -287,7 +287,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 165,
+    id: 227,
     subject: "vehicle",
     question: "히터 사용 중 발열, 저온 및 화상 등의 위험이 발생할 수 있는 승객이 아닌 것은?",
     choices: [
@@ -298,7 +298,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 166,
+    id: 228,
     subject: "vehicle",
     question: "다음은 안전벨트 착용방법에 대한 설명이다. 가장 적절한 방법은?",
     choices: [
@@ -309,7 +309,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 167,
+    id: 229,
     subject: "vehicle",
     question: "자동차 계기판 용어에 대한 설명으로 틀린 것은?",
     choices: [
@@ -320,7 +320,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 168,
+    id: 230,
     subject: "vehicle",
     question: "배터리의 충전 및 방전 상태를 나타내는 계기장치는?",
     choices: [
@@ -331,7 +331,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 169,
+    id: 231,
     subject: "vehicle",
     question: "자동차 계기판에서 연료탱크에 남아 있는 연료의 잔류량을 나타내는 것은?",
     choices: [
@@ -342,7 +342,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 170,
+    id: 232,
     subject: "vehicle",
     question: "배기 브레이크 스위치를 작동시키면 계기판에 나타나는 표시등은?",
     choices: [
@@ -353,7 +353,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 171,
+    id: 233,
     subject: "vehicle",
     question: "자동차 계기판의 경고등에 해당되지 않는 것은?",
     choices: [
@@ -364,7 +364,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 172,
+    id: 234,
     subject: "vehicle",
     question: "전조등 스위치 1단계에서 점등되지 않는 등화는 무엇인가?",
     choices: [
@@ -375,9 +375,9 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 173,
+    id: 235,
     subject: "vehicle",
-    question: "전도등 사용 시기에 대한 설명 중 틀린 것은?",
+    question: "전조등 사용 시기에 대한 설명 중 틀린 것은?",
     choices: [
         "마주 오는 자동차가 있거나 앞 자동차를 따라갈 경우는 하향등을 켠다.",
         "야간운행 시 마주 오는 자동차가 없을 때 시야 확보를 원하는 경우 상향등을 켠다.",
@@ -386,7 +386,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 174,
+    id: 236,
     subject: "vehicle",
     question: "와셔액 탱크가 비어 있는 경우에 와이퍼를 작동시키면 어떤 문제가 발생할 수 있는가?",
     choices: [
@@ -397,7 +397,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 175,
+    id: 237,
     subject: "vehicle",
     question: "다음은 자동차 스위치에 대한 설명이다. 잘못된 것은?",
     choices: [
@@ -408,7 +408,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 176,
+    id: 238,
     subject: "vehicle",
     question: "엔진 오버히트가 발생할 때의 안전조치 요령이 아닌 것은?",
     choices: [
@@ -419,7 +419,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 177,
+    id: 239,
     subject: "vehicle",
     question: "풋 브레이크가 작동하지 않는 경우 응급조치 요령으로 가장 적합한 것은?",
     choices: [
@@ -430,7 +430,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 178,
+    id: 240,
     subject: "vehicle",
     question: "자동차의 견인에 필요한 경우의 응급조치요령 중 올바르지 않는 것은?",
     choices: [
@@ -441,7 +441,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 179,
+    id: 241,
     subject: "vehicle",
     question: "시동모터가 작동되지 않거나 천천히 회전하는 경우에 해당되지 않는 것은?",
     choices: [
@@ -452,7 +452,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 180,
+    id: 242,
     subject: "vehicle",
     question: "핸들이 무거워지는 원인은?",
     choices: [
@@ -463,7 +463,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 181,
+    id: 243,
     subject: "vehicle",
     question: "브레이크가 편제동되는 경우 추정할 수 있는 원인이 아닌 것은?",
     choices: [
@@ -474,7 +474,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 182,
+    id: 244,
     subject: "vehicle",
     question: "브레이크 제동효과가 나쁜 경우 추정할 수 있는 원인이 아닌 것은?",
     choices: [
@@ -485,7 +485,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 183,
+    id: 245,
     subject: "vehicle",
     question: "자동차의 동력발생장치에서 발생한 동력을 주행상황에 맞는 적절한 상태로 변화를 주어 바퀴에 전달하는 장치를 무엇이라 하는가?",
     choices: [
@@ -496,7 +496,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 184,
+    id: 246,
     subject: "vehicle",
     question: "자동변속기의 장점이 아닌 것은?",
     choices: [
@@ -507,7 +507,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 185,
+    id: 247,
     subject: "vehicle",
     question: "자동변속기 오일에 수분이 다량으로 유입된 경우 오일의 색깔은?",
     choices: [
@@ -518,7 +518,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 186,
+    id: 248,
     subject: "vehicle",
     question: "레이디얼 타이어의 특성이 아닌 것은?",
     choices: [
@@ -529,7 +529,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 187,
+    id: 249,
     subject: "vehicle",
     question: "주행 중 비틀림 혹은 흔들림이 발생하거나 커브길에서 휘청거리는 느낌이 드는 경우 예측할 수 있는 고장 부분은?",
     choices: [
@@ -540,7 +540,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 188,
+    id: 250,
     subject: "vehicle",
     question: "다음 중 현가장치의 주요기능에 해당되지 않는 것은?",
     choices: [
@@ -551,7 +551,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 189,
+    id: 251,
     subject: "vehicle",
     question: "스프링의 종류에 해당되지 않는 것은?",
     choices: [
@@ -562,7 +562,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 190,
+    id: 252,
     subject: "vehicle",
     question: "완충(현가)장치인 스프링 중 코일 스프링에 대한 설명 중 틀린 것은?",
     choices: [
@@ -573,7 +573,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 191,
+    id: 253,
     subject: "vehicle",
     question: "버스나 화물차에 주로 사용하는 스프링은?",
     choices: [
@@ -584,7 +584,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 192,
+    id: 254,
     subject: "vehicle",
     question: "자동차의 진행방향을 운전자가 의도하는 바에 따라 조작할 수 있게 하는 장치는?",
     choices: [
@@ -595,7 +595,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 193,
+    id: 255,
     subject: "vehicle",
     question: "자동차 조향장치가 갖추어야 할 구비조건에 해당되지 않는 것은?",
     choices: [
@@ -606,7 +606,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 194,
+    id: 256,
     subject: "vehicle",
     question: "휠 얼라이먼트 항목에 해당하지 않는 것은?",
     choices: [
@@ -617,7 +617,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 195,
+    id: 257,
     subject: "vehicle",
     question: "다음 중 자동차 조향 장치인 토인(Toe-In)에 대한 설명으로 틀린 것은?",
     choices: [
@@ -628,7 +628,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 196,
+    id: 258,
     subject: "vehicle",
     question: "자동차의 안전운행을 위해서는 휠 얼라인먼트(차륜 정렬)가 중요하다. 휠 얼라인먼트가 필요한 경우로 틀린 것은?",
     choices: [
@@ -639,7 +639,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 197,
+    id: 259,
     subject: "vehicle",
     question: "다음 중 공기식 브레이크의 부품이 아닌 것은?",
     choices: [
@@ -650,7 +650,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 198,
+    id: 260,
     subject: "vehicle",
     question: "공기식 브레이크의 구성품 중 공기 탱크 내의 압력이 규정 값이 되었을 때 밸브를 닫아 탱크 내의 공기가 새지 않도록 하는 것은?",
     choices: [
@@ -661,7 +661,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 199,
+    id: 261,
     subject: "vehicle",
     question: "엔진으로 공기압축기를 구동하여 발생한 압축공기를 동력원으로 사용하는 방식의 브레이크는?",
     choices: [
@@ -672,7 +672,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 200,
+    id: 262,
     subject: "vehicle",
     question: "자동차가 고속 대형화됨에 따라 주 브레이크를 계속 사용하면 베이퍼 록이나 페이드 현상이 발생할 가능성이 높아지므로 감속(보조) 브레이크를 적절히 사용할 필요가 있다. 감속 브레이크에 해당하는 것은?",
     choices: [
@@ -683,7 +683,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 201,
+    id: 263,
     subject: "vehicle",
     question: "자동차 검사의 필요성이 아닌 것은?",
     choices: [
@@ -694,7 +694,7 @@ export const vehicleQuestions = [
     answer: 2
   },
   {
-    id: 202,
+    id: 264,
     subject: "vehicle",
     question: "사업용 자동차의 차령을 연장하고자 할 때 시행하는 검사 종류는?",
     choices: [
@@ -705,7 +705,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 203,
+    id: 265,
     subject: "vehicle",
     question: "자동차관리법에 따른 자동차 신규검사 신청서류가 아닌 것은?",
     choices: [
@@ -716,7 +716,7 @@ export const vehicleQuestions = [
     answer: 0
   },
   {
-    id: 204,
+    id: 266,
     subject: "vehicle",
     question: "여객자동차 운수사업법에 의하여 면허, 등록, 인가 또는 신고가 실효되거나 취소되어 말소된 자동차를 다시 등록하고자 하는 경우 신청하는 자동차 검사 종류는?",
     choices: [
@@ -727,7 +727,7 @@ export const vehicleQuestions = [
     answer: 3
   },
   {
-    id: 205,
+    id: 267,
     subject: "vehicle",
     question: "책임보험이나 책임공제에 미가입한 1대의 자동차에 부과할 과태료의 최고 한도 금액은?",
     choices: [
@@ -738,7 +738,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 206,
+    id: 268,
     subject: "vehicle",
     question: "책임보험이나 책임공제에 미가입한 경우 가입하지 아니한 기간이 10일 이내이면 과태료 금액은 얼마인가?",
     choices: [
@@ -749,7 +749,7 @@ export const vehicleQuestions = [
     answer: 1
   },
   {
-    id: 207,
+    id: 269,
     subject: "vehicle",
     question: "책임보험이나 책임공제에 미가입한 날이 15일 된 1대의 자동차에 부과할 과태료 금액은?",
     choices: [

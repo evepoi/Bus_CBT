@@ -1,7 +1,7 @@
 // src/data/safety.js
 export const safetyQuestions = [
   {
-    id: 208,
+    id: 301,
     subject: "safety",
     question: "교통사고 요인의 가설적 연쇄과정 중 인간요인에 의한 연쇄과정과 거리가 먼 것은?",
     choices: [
@@ -11,7 +11,7 @@ export const safetyQuestions = [
         "비가 오고 있다."],
     answer: 3
   },
-  {id: 209,
+  {id: 302,
     subject: "safety",
     question: "교통사고의 구성요인에 포함되지 않는 것은?",
     choices: [
@@ -22,7 +22,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 210,
+    id: 303,
     subject: "safety",
     question: "교통사고요인의 복합적 연쇄과정 중 환경요인에 의한 연쇄과정에 속하는 것은?",
     choices: [
@@ -33,7 +33,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 211,
+    id: 304,
     subject: "safety",
     question: "교차로 신호위반 사고요인과 관계가 먼 것은?",
     choices: [
@@ -44,7 +44,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 212,
+    id: 305,
     subject: "safety",
     question: "도로 노면에 대한 관찰 및 주의의 결여와 가장 관계가 많은 교통사고 유형은?",
     choices: [
@@ -55,7 +55,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 213,
+    id: 306,
     subject: "safety",
     question: "버스 운전자로서의 기본 자세 중 승용차와 차별되는 버스의 운전특성과 거리가 먼 것은?",
     choices: [
@@ -66,9 +66,9 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 214,
+    id: 307,
     subject: "safety",
-    question: "운전 중의 위험사태 판단과 관련된 능력은 개인차가 있지만 대채로 무엇과 밀접한 관계를 갖는가?",
+    question: "운전 중의 위험사태 판단과 관련된 능력은 개인차가 있지만 대체로 무엇과 밀접한 관계를 갖는가?",
     choices: [
         "지식 정도",
         "체력 정도",
@@ -77,7 +77,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 215,
+    id: 308,
     subject: "safety",
     question: "초보운전자가 인식하는 안전에 대한 설명과 거리가 먼 것은?",
     choices: [
@@ -88,7 +88,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 216,
+    id: 309,
     subject: "safety",
     question: "차의 운행 시 객관적 안전인식이 높은 사람은 어떤 사람인가?",
     choices: [
@@ -99,9 +99,9 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 217,
+    id: 310,
     subject: "safety",
-    question: "운전가가 운전 중 눈을 통해 얻는 운전 관련 정보의 비율은 어느 정도나 되는가?",
+    question: "운전자가 운전 중 눈을 통해 얻는 운전 관련 정보의 비율은 어느 정도나 되는가?",
     choices: [
         "100%",
         "90%",
@@ -110,7 +110,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 218,
+    id: 311,
     subject: "safety",
     question: "도로교통법령상 제1종 운전면허의 시력 기준은?",
     choices: [
@@ -121,7 +121,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 219,
+    id: 312,
     subject: "safety",
     question: "일정 거리에서 일정한 시표를 보고 모양을 확인할 수 있는지를 가지고 측정하는 시력을 무엇이라 하는가?",
     choices: [
@@ -132,7 +132,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 220,
+    id: 313,
     subject: "safety",
     question: "운전 중 피로를 푸는 법으로 부적절한 것은?",
     choices: [
@@ -143,7 +143,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 221,
+    id: 314,
     subject: "safety",
     question: "과로한 상태에서 교통표지를 못 보거나 보행자를 알아보지 못하는 것과 관계있는 것은?",
     choices: [
@@ -154,7 +154,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 222,
+    id: 315,
     subject: "safety",
     question: "혈중알코올 농도에 영향을 미치는 것이 아닌 것은?",
     choices: [
@@ -165,7 +165,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 223,
+    id: 316,
     subject: "safety",
     question: "환각제에 대한 설명 중 맞지 않는 것은?",
     choices: [
@@ -176,7 +176,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 224,
+    id: 317,
     subject: "safety",
     question: "횡단보도 부근으로 보행자가 횡단하고 있을 때 가장 올바른 운전 방법은?",
     choices: [
@@ -187,7 +187,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 225,
+    id: 318,
     subject: "safety",
     question: "운전자에게 보행자와의 사고를 피하는 데 대한 특별한 주의 의무를 부과하는 이유중 부적절한 것은?",
     choices: [
@@ -198,18 +198,18 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 226,
+    id: 319,
     subject: "safety",
     question: "대형 차량과 일정한 공간적 거리를 두어야 하는 이유는?",
     choices: [
-        "정기거리가 상대적으로 짧다.",
+        "정지거리가 상대적으로 짧다.",
         "점유공간이 상대적으로 많다.",
         "전·후방의 시야를 제약한다.",
         "대형차는 갑자가 정지하기가 어렵다."],
     answer: 2
   },
   {
-    id: 227,
+    id: 320,
     subject: "safety",
     question: "대형자동차의 특성이라 볼 수 없는 것은?",
     choices: [
@@ -220,7 +220,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 228,
+    id: 321,
     subject: "safety",
     question: "차가 커브를 돌 때 주행하던 차로나 도로를 벗어나려는 힘을 무엇이라고 하는가?",
     choices: [
@@ -231,9 +231,9 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 229,
+    id: 322,
     subject: "safety",
-    question: "비가 자주 오거나 습지가 높은 날 브레이크 드럼에 미세한 녹이 발생하고 마찰계수가 높아져 평소보다 브레이크가 지나치게 예민하게 작동하는현상은?",
+    question: "비가 자주 오거나 습지가 높은 날 브레이크 드럼에 미세한 녹이 발생하고 마찰계수가 높아져 평소보다 브레이크가 지나치게 예민하게 작동하는 현상은?",
     choices: [
         "모닝 록(Morning Lock) 현상",
         "베이퍼 록(Vapor Lock) 현상",
@@ -242,7 +242,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 230,
+    id: 323,
     subject: "safety",
     question: "차량의 핸들을 돌렸을 때 앞바퀴의 안쪽 궤적과 뒷바퀴의 안쪽 궤적 간의 차이를 무엇이라 하는가?",
     choices: [
@@ -253,7 +253,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 231,
+    id: 324,
     subject: "safety",
     question: "타이어의 마모를 촉진하는 환경이라고 할 수 없는 것은?",
     choices: [
@@ -264,7 +264,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 232,
+    id: 325,
     subject: "safety",
     question: "운전자가 제동을 시작하여 자동차가 완전히 정지할 때까지 진행한 시간을 무엇이라 하는가?",
     choices: [
@@ -275,7 +275,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 233,
+    id: 326,
     subject: "safety",
     question: "정지거리에 영향을 미치는 요인 중 운전자 요인이 아닌 것은?",
     choices: [
@@ -286,7 +286,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 234,
+    id: 327,
     subject: "safety",
     question: "다음 중 옳은 것은?",
     choices: [
@@ -297,7 +297,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 235,
+    id: 328,
     subject: "safety",
     question: "2차로 앞지르기 금지구간에서 자동차의 원활한 교통을 도모하고, 도로 안전성을 제고하기 위해 길어깨(갓길) 쪽으로 설치하는 저속 자동차의 주행차로를 무엇이라 하는가?",
     choices: [
@@ -308,7 +308,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 236,
+    id: 329,
     subject: "safety",
     question: "자동차의 가속 및 감속을 위해 설치하는 차로로 교차로, 인터체인지 등에 주로 설치하는 차로는?",
     choices: [
@@ -319,7 +319,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 237,
+    id: 330,
     subject: "safety",
     question: "다음 중 교통약자 이동편의 증진법에서 정의하는 교통약자가 아닌 사람은?",
     choices: [
@@ -330,9 +330,9 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 238,
+    id: 331,
     subject: "safety",
-    question: "평면고속부에서 자동차가 원심력에 저항할 수 있도록 하기 위하여 설치하는 횡단경사를 무엇이라 하는가?",
+    question: "평면곡선부에서 자동차가 원심력에 저항할 수 있도록 하기 위하여 설치하는 횡단경사를 무엇이라 하는가?",
     choices: [
         "시거",
         "축대",
@@ -341,7 +341,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 239,
+    id: 332,
     subject: "safety",
     question: "곡선부 등에 차량의 이탈사고를 방지하기 위해 설치하는 시설과 관계있는 것은?",
     choices: [
@@ -352,7 +352,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 240,
+    id: 333,
     subject: "safety",
     question: "평면곡선 도로를 주행할 때 원심력에 의해 곡선 바깥쪽으로 진행하려는 힘과 관련이 없는 것은?",
     choices: [
@@ -363,7 +363,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 241,
+    id: 334,
     subject: "safety",
     question: "종단선형과 교통사고와의 관계 중 종단경사가 커짐에 따라 사고율은 어떻게 나타나는가?",
     choices: [
@@ -374,7 +374,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 242,
+    id: 335,
     subject: "safety",
     question: "차로를 구분하기 위해 설치한 것으로 맞는 것은?",
     choices: [
@@ -385,7 +385,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 243,
+    id: 336,
     subject: "safety",
     question: "포장된 길어깨(갓길)의 장점으로 맞지 않는 것은?",
     choices: [
@@ -396,7 +396,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 244,
+    id: 337,
     subject: "safety",
     question: "길어깨와 관련 없는 것은?",
     choices: [
@@ -407,7 +407,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 245,
+    id: 338,
     subject: "safety",
     question: "교량과 교통사고이 관계에 대한 설명 중 맞지 않는 것은?",
     choices: [
@@ -418,7 +418,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 246,
+    id: 339,
     subject: "safety",
     question: "회전교차로의 장점이 아닌 것은?",
     choices: [
@@ -429,7 +429,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 247,
+    id: 340,
     subject: "safety",
     question: "회전교차로의 일반적인 특징으로 적절하지 않은 것은?",
     choices: [
@@ -440,7 +440,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 248,
+    id: 341,
     subject: "safety",
     question: "회전교차로 진입 방법으로 맞지 않는 것은?",
     choices: [
@@ -451,7 +451,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 249,
+    id: 342,
     subject: "law",
     question: "주간 또는 야간에 운전자의 시선을 유도하기 위해 설치된 시선유도시설 중 표지병은 다음 주 어느것인가?",
     choices: [
@@ -463,7 +463,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 250,
+    id: 343,
     subject: "safety",
     question: "주간 또는 야간에 운전자의 시선을 유도하기 위해 설치된 안전시설이 아닌 것은?",
     choices: [
@@ -474,7 +474,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 251,
+    id: 344,
     subject: "safety",
     question: "주행 차로를 벗어난 차량이 도로상의 구조물 등과 충돌하기 전에 자동차의 충격 에너지를 흡수하여 정지하도록 하는 시설로 주로 교각이나 교대, 지하차도의 기둥 등에 설치하는 시설은 무엇인가?",
     choices: [
@@ -485,7 +485,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 252,
+    id: 345,
     subject: "safety",
     question: "충격흡수시설에 대한 설명으로 틀린 것은?",
     choices: [
@@ -496,7 +496,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 253,
+    id: 346,
     subject: "safety",
     question: "정차하려는 버스와 우회전하려는 자동차가 상충될 수 있는 단점이 있는 가로변버스정류소는?",
     choices: [
@@ -507,7 +507,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 254,
+    id: 347,
     subject: "safety",
     question: "버스승객의 승·하차를 위하여 본선 차로에서 분리하여 설치한 띠 모양의 공간은?",
     choices: [
@@ -518,7 +518,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 255,
+    id: 348,
     subject: "safety",
     question: "비상주차대가 설치된 장소가 아닌 것은?",
     choices: [
@@ -529,7 +529,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 256,
+    id: 349,
     subject: "safety",
     question: "규모에 따른 휴게시설의 종류로 볼 수 없는 것은?",
     choices: [
@@ -540,7 +540,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 257,
+    id: 350,
     subject: "safety",
     question: "인지, 판단의 기술 중 운전에 있어 중요한 정보의 90% 이상을 담당하는 감각기관은?",
     choices: [
@@ -551,7 +551,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 258,
+    id: 351,
     subject: "safety",
     question: "안전운전을 위한 효율적인 정보처리 과정의 순서로 맞게 나열된 것은?",
     choices: [
@@ -562,7 +562,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 259,
+    id: 352,
     subject: "safety",
     question: "인지, 판단의 기술 중 확인방법으로 틀린 것은?",
     choices: [
@@ -573,7 +573,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 260,
+    id: 353,
     subject: "safety",
     question: "목적지를 찾느라 전방을 주시하지 못해 보행자와 충돌했다면 다음 중 무엇과 관련이 있는가?",
     choices: [
@@ -584,7 +584,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 261,
+    id: 354,
     subject: "safety",
     question: "위험에 대한 신중한 운전자(위험 회피자)는 운전자의 행동특성에 따라 예측회피 반응집단과 지연회피반응집단으로 구분이 가능하다. 이 중 예측회피반응집단의 행동특성으로 맞지 않는 것은?",
     choices: [
@@ -595,7 +595,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 262,
+    id: 355,
     subject: "safety",
     question: "시야 고정이 많은 운전자의 특성이라 볼 수 없는 것은?",
     choices: [
@@ -606,7 +606,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 263,
+    id: 356,
     subject: "safety",
     question: "회전을 하거나 차로를 변경할 경우에 가장 우선적으로 고려해야 할 운전기술은?",
     choices: [
@@ -617,7 +617,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 264,
+    id: 357,
     subject: "safety",
     question: "뒷 차가 바짝 붙어서 주행하는 상황을 피할 수 있는 방법으로 옳지 않은 것은?",
     choices: [
@@ -628,7 +628,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 265,
+    id: 358,
     subject: "safety",
     question: "다음 중 안전운전의 5가지 기본기술과 관계가 없는 것은?",
     choices: [
@@ -639,7 +639,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 266,
+    id: 359,
     subject: "safety",
     question: "방어운전에 대한 설명으로 옳지 않은 것은?",
     choices: [
@@ -650,7 +650,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 267,
+    id: 360,
     subject: "safety",
     question: "비상주차대가 설치되는 장소가 아닌 것은?",
     choices: [
@@ -661,7 +661,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 268,
+    id: 361,
     subject: "safety",
     question: "다음 중 눈, 비 올 때의 미끄러짐 사고를 예방하기 위한 운전법이 아닌 것은?",
     choices: [
@@ -672,7 +672,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 269,
+    id: 362,
     subject: "safety",
     question: "브레이크와 타이어 등 차량 결함 사고 발생 시 대처방법으로 옳지 않은 것은?",
     choices: [
@@ -683,9 +683,9 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 270,
+    id: 363,
     subject: "safety",
-    question: "방어운전은 운전자가 사고 당시애ㅔ 합리적으로 행동했다면 예방 가능했던 교통사고가 몇 % 이상이라는 것이 전제인가?",
+    question: "방어운전은 운전자가 사고 당시에 합리적으로 행동했다면 예방 가능했던 교통사고가 몇 % 이상이라는 것이 전제인가?",
     choices: [
         "70%",
         "80%",
@@ -694,7 +694,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 271,
+    id: 364,
     subject: "safety",
     question: "시가지에서의 방어운전 중 시인성 다루기 방법으로 옳지 않은 것은?",
     choices: [
@@ -705,7 +705,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 272,
+    id: 365,
     subject: "safety",
     question: "시가지 교차로에서의 방어운전 요령으로 바르게 설명한 것은?",
     choices: [
@@ -716,7 +716,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 273,
+    id: 366,
     subject: "safety",
     question: "시가지 교차로에서의 방어운전 중 버스 회전 시 주변에 있는 물체와 접촉할 가능성이 높아지는 것은 버스의 어떤 특성 때문인가?",
     choices: [
@@ -727,7 +727,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 274,
+    id: 367,
     subject: "safety",
     question: "시가지 이면도로에서 위험하게 느껴지는 자동차나 자전거·보행자 등을 발견하였을 때의 방어운전 방법으로서 부적절한 것은?",
     choices: [
@@ -738,7 +738,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 275,
+    id: 368,
     subject: "safety",
     question: "어린이보호구역이 있는 시가지 이면도로에서의 방어운전 방법으로서 가장 적절하지 않은 것은?",
     choices: [
@@ -749,7 +749,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 276,
+    id: 369,
     subject: "safety",
     question: "지방도에서 사고예방을 위한 운전방법으로 적절하지 않은 것은?",
     choices: [
@@ -760,7 +760,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 277,
+    id: 370,
     subject: "safety",
     question: "지방도에서의 시인성 확보를 위해 문제를 야기할 수 있는 전방 몇 초의 상황을 확인하는 것이 좋은가?",
     choices: [
@@ -771,7 +771,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 278,
+    id: 371,
     subject: "safety",
     question: "회전 시, 앞지르기를 할 때 등에 신호를 하는 것은 어떤 전략에 속하는가?",
     choices: [
@@ -782,7 +782,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 279,
+    id: 372,
     subject: "safety",
     question: "커브길 주행 시 방어운전 방법으로 바르지 않은 것은?",
     choices: [
@@ -793,7 +793,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 280,
+    id: 373,
     subject: "safety",
     question: "오르막길에서의 안전운전 및 방어운전의 방법으로 부적절한 것은?",
     choices: [
@@ -804,7 +804,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 281,
+    id: 374,
     subject: "safety",
     question: "고속도로에서의 방어운전 방법으로 옳지 않은 것은?",
     choices: [
@@ -815,7 +815,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 282,
+    id: 375,
     subject: "safety",
     question: "고속도로에서의 시인성, 시간, 공간의 관리 중 공간을 관리하는 운전 전략으로 부적절한 것은?",
     choices: [
@@ -826,7 +826,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 283,
+    id: 376,
     subject: "safety",
     question: "진입차선을 통해 고속도로로 들어갈 때 방어운전을 위해 유지해야 할 최소한의 시간간격은?",
     choices: [
@@ -837,7 +837,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 284,
+    id: 377,
     subject: "safety",
     question: "고속도로 진입부에서의 안전운전을 위한 주의사항으로 거리가 먼 것은?",
     choices: [
@@ -848,7 +848,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 285,
+    id: 378,
     subject: "safety",
     question: "앞지르기 순서와 방법상의 주의사항으로 부적절한 것은?",
     choices: [
@@ -859,7 +859,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 286,
+    id: 379,
     subject: "safety",
     question: "앞차가 좌측으로 진로를 바꾸려고 하거나 다른 차를 앞지르려고 할 때 올바른 앞지르기 방법은?",
     choices: [
@@ -870,7 +870,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 287,
+    id: 380,
     subject: "safety",
     question: "다른 차가 자신의 차를 앞지르기할 때의 방어운전에 대한 설명으로 부적절한 것은?",
     choices: [
@@ -881,7 +881,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 288,
+    id: 381,
     subject: "safety",
     question: "야간의 안전운전을 위해 기억해야 할 사항과 거리가 먼 것은?",
     choices: [
@@ -892,7 +892,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 289,
+    id: 382,
     subject: "safety",
     question: "보행자가 교차하는 챠량의 불빛 중간에 있게 되면 운전자가 순간적으로 보행자를 전혀 보지 못하는 현상을 말하는 것은?",
     choices: [
@@ -903,7 +903,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 290,
+    id: 383,
     subject: "safety",
     question: "야간에 안전운전을 위한 주의사항으로 거리가 먼 것은?",
     choices: [
@@ -914,7 +914,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 291,
+    id: 384,
     subject: "safety",
     question: "야간에 식별이 가장 곤란한 보행자는 어떤 옷을 입은 보행자인가?",
     choices: [
@@ -925,7 +925,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 292,
+    id: 385,
     subject: "safety",
     question: "경제운전의 효과와 거리가 먼 것은?",
     choices: [
@@ -936,7 +936,7 @@ export const safetyQuestions = [
     answer: 0
   },
   {
-    id: 293,
+    id: 386,
     subject: "safety",
     question: "경제운전을 설명한 것 중 거리가 먼 것은?",
     choices: [
@@ -947,7 +947,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 294,
+    id: 387,
     subject: "safety",
     question: "경제운전과 기어변속과의 관계를 적절히 설명한 것이 아닌 것은?",
     choices: [
@@ -958,7 +958,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 295,
+    id: 388,
     subject: "safety",
     question: "버스의 엔진 시동 및 출발에 대한 요령으로 부적절한 것은?",
     choices: [
@@ -969,7 +969,7 @@ export const safetyQuestions = [
     answer: 1
   },
   {
-    id: 296,
+    id: 389,
     subject: "safety",
     question: "자동차를 출발시키고자 할 때 기본 운전수칙으로 적당하지 않은 것은?",
     choices: [
@@ -980,7 +980,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 297,
+    id: 390,
     subject: "safety",
     question: "정류소에서 출발할 때에 우선적으로 해야 하는 것은?",
     choices: [
@@ -991,7 +991,7 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 298,
+    id: 391,
     subject: "safety",
     question: "안전한 주행을 위한 방법으로 적당하지 않은 것은?",
     choices: [
@@ -1002,18 +1002,18 @@ export const safetyQuestions = [
     answer: 2
   },
   {
-    id: 299,
+    id: 392,
     subject: "safety",
     question: "차량에 대한 점검이 필요한 때에 대한 설명 중 부적절한 것은?",
     choices: [
         "교통체증으로 인한 정체 시",
-        "운행시작 전 또는 종류 후",
+        "운행시작 전 또는 종료 후",
         "운행 중간 휴식시간",
         "운행 중에 차량의 이상이 발견된 경우"],
     answer: 0
   },
   {
-    id: 300,
+    id: 393,
     subject: "safety",
     question: "여름철 주행 중 세차가 가장 중요한 상황은?",
     choices: [
@@ -1024,9 +1024,9 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 301,
+    id: 394,
     subject: "safety",
-    question: "와이버 작동상태의 점검방법으로 거리가 먼 것은?",
+    question: "와이퍼 작동상태의 점검방법으로 거리가 먼 것은?",
     choices: [
         "와이퍼가 정상적으로 작동하는지를 확인한다.",
         "유리면과 접촉하는 와이퍼 블레이드가 닳지 않았는지를 점검한다.",
@@ -1035,7 +1035,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 302,
+    id: 395,
     subject: "safety",
     question: "여름철 차량 내부의 습기 제거에 대한 설명으로 적합하지 않은 것은?",
     choices: [
@@ -1046,7 +1046,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 303,
+    id: 396,
     subject: "safety",
     question: "여름철 교통사고 위험요인으로 거리가 먼 것은?",
     choices: [
@@ -1057,7 +1057,7 @@ export const safetyQuestions = [
     answer: 3
   },
   {
-    id: 304,
+    id: 397,
     subject: "safety",
     question: "겨울철 교통사고 위험요인에 대한 설명으로 가장 적절하지 않은 것은?",
     choices: [

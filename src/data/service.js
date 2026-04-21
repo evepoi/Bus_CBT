@@ -1,7 +1,7 @@
 // src/data/service.js
 export const serviceQuestions = [
   {
-    id: 305,
+    id: 401,
     subject: "service",
     question: "올바른 서비스 제공을 위한 요소가 아닌 것은?",
     choices: [
@@ -12,7 +12,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 306,
+    id: 402,
     subject: "service",
     question: "올바른 고색서비스 제공을 위한 기본요소가 아닌 것은?",
     choices: [
@@ -23,7 +23,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 307,
+    id: 403,
     subject: "service",
     question: "고객서비스의 특징 중 무형성에 대한 설명으로 바르지 못한 것은?",
     choices: [
@@ -34,18 +34,18 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 308,
+    id: 404,
     subject: "service",
-    question: "승객만존의 개념 및 중요성에 대한 설명으로 옳지 않은 것은?",
+    question: "승객만족의 개념 및 중요성에 대한 설명으로 옳지 않은 것은?",
     choices: [
-        "승객만족이란 승객의 기대에 부응하는 양질의 서비슬르 제공하여 승객이 만족감을 느끼게 하는 것이다.",
+        "승객만족이란 승객의 기대에 부응하는 양질의 서비스를 제공하여 승객이 만족감을 느끼게 하는 것이다.",
         "지속적인 서비스 교육 시행 등 승객을 만족시키기 위한 분위기 조성을 경영자의 몫이다.",
         "실제로 승객을 상대하고 승객을 만족시키는 사람은 승객과 접촉하는 최실선의 운전자이다.",
         "승객이 느끼는 일부 운전자에 대한 불만족은 회사 전체 평가에는 크게 영향을 미치지 않는다."],
     answer: 3
   },
   {
-    id: 309,
+    id: 405,
     subject: "service",
     question: "다음 중 일반적인 승객의 요구와 거리가 먼 것은?",
     choices: [
@@ -56,7 +56,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 310,
+    id: 406,
     subject: "service",
     question: "승객만족을 위한 기본예절에 대한 설명한 것으로 맞지 않는 것은?",
     choices: [
@@ -67,7 +67,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 311,
+    id: 407,
     subject: "service",
     question: "승객만족을 위한 기본예절이라 볼 수 없는 것은?",
     choices: [
@@ -78,7 +78,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 312,
+    id: 408,
     subject: "service",
     question: "승객을 위해서는 이미지 관리도 매우 중요하다. 이에 대한 설명으로 적절하지 않는 것은?",
     choices: [
@@ -89,7 +89,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 313,
+    id: 409,
     subject: "service",
     question: "승객에게 불쾌감을 주는 몸가짐과 거리가 먼 것은?",
     choices: [
@@ -100,7 +100,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 314,
+    id: 410,
     subject: "service",
     question: "승객와의 대화 시 주의사항으로 옳지 않은 것은?",
     choices: [
@@ -111,7 +111,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 315,
+    id: 411,
     subject: "service",
     question: "다음 중 올바른 직업윤리는?",
     choices: [
@@ -122,7 +122,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 316,
+    id: 412,
     subject: "service",
     question: "운송사업용 자동차의 운행기록계와 속도제한장치 관련 기준을 규정하고 있는 법규는?",
     choices: [
@@ -133,7 +133,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 317,
+    id: 413,
     subject: "service",
     question: "자동차의 장치 및 설비 등에 관한 준수사항 중에서 옳지 않은 것은?",
     choices: [
@@ -144,7 +144,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 318,
+    id: 414,
     subject: "service",
     question: "운수종사자의 준수사항이 아닌 것은?",
     choices: [
@@ -155,7 +155,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 319,
+    id: 415,
     subject: "service",
     question: "운수종사자의 준수사항 중 여객의 안전과 사고예방을 위하여 운행 전 사업용 자동차의 이상 유무를 확인해야 하는 사항은?",
     choices: [
@@ -166,9 +166,9 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 320,
+    id: 416,
     subject: "service",
-    question: "운수종사자는 운잔운행과 다른 승객의 편의를 위하여 어떤 행동에 대한 제지하고 필요한 사항을 안내해야 하는데, 다음 행위 중에서 제지할 수 없는 행위는?",
+    question: "운수종사자는 안전운행과 다른 승객의 편의를 위하여 어떤 행동에 대한 제지하고 필요한 사항을 안내해야 하는데, 다음 행위 중에서 제지할 수 없는 행위는?",
     choices: [
         "폭발성 물질, 인화성 물질 등의 우험물을 자동차 안으로 가지고 들어오는 행위",
         "전용 운반상자 없이 애완동물을 자동차 안으로 데리고 들어오는 행위",
@@ -177,7 +177,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 321,
+    id: 417,
     subject: "service",
     question: "운수종사자가 지켜야 할 준수사항으로 옳지 않은 것은?",
     choices: [
@@ -188,7 +188,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 322,
+    id: 418,
     subject: "service",
     question: "운전자의 인성과 습관이 운전예절에 미치는 요인에 관한 설명으로 옳지 않은 것은?",
     choices: [
@@ -199,7 +199,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 323,
+    id: 419,
     subject: "service",
     question: "다음 중 운전자가 지켜야 할 행동으로 적절하지 않은 것은?",
     choices: [
@@ -210,7 +210,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 324,
+    id: 420,
     subject: "service",
     question: "전조등의 올바른 사용에 해당되지 않는 것은?",
     choices: [
@@ -221,7 +221,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 325,
+    id: 421,
     subject: "service",
     question: "운전자가 삼가야 하는 행동을 기술한 것 중에서 올바르지 않은 것은?",
     choices: [
@@ -232,7 +232,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 326,
+    id: 422,
     subject: "service",
     question: "운전자가 취득한 운전면허로 운전할 수 있는 차종 이외의 차량은 운전을 금지하고 있다. 이와 같이 취득한 운전면허로 운전할 수 있는 차종을 규정해 놓은 법은?",
     choices: [
@@ -243,7 +243,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 327,
+    id: 423,
     subject: "service",
     question: "다음 중 운전자의 주의사항으로 틀린 것은?",
     choices: [
@@ -254,7 +254,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 328,
+    id: 424,
     subject: "service",
     question: "운행 중 운전자의 주의사항으로 맞지 않은 것은?",
     choices: [
@@ -265,7 +265,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 329,
+    id: 425,
     subject: "service",
     question: "운행 중 주의사항에 해당하지 않는 것은?",
     choices: [
@@ -276,7 +276,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 330,
+    id: 426,
     subject: "service",
     question: "버스준공영제의 유형 중 형태에 의한 분류에 해당하지 않는 것은?",
     choices: [
@@ -287,7 +287,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 331,
+    id: 427,
     subject: "service",
     question: "버스준공영제를 시행하는 목적에 부합되지 않는 것은?",
     choices: [
@@ -298,7 +298,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 332,
+    id: 428,
     subject: "service",
     question: "운수사업자가 자율적으로 요금을 정하는 운송사업은?",
     choices: [
@@ -309,7 +309,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 333,
+    id: 429,
     subject: "service",
     question: "다음 중 이용거리가 증가함에 따라 단위당 운임이 낮아지는 버스요금체계를 무엇이라 하는가?",
     choices: [
@@ -320,7 +320,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 334,
+    id: 430,
     subject: "service",
     question: "업종별 요금체계가 바르게 연결되지 않은 것은?",
     choices: [
@@ -331,7 +331,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 335,
+    id: 431,
     subject: "service",
     question: "간선급행버스체계(BRT)의 도입효과로 거리가 먼 것은?",
     choices: [
@@ -342,7 +342,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 336,
+    id: 432,
     subject: "service",
     question: "다음 중 간선급행버스체계의 특성이 아닌 것은?",
     choices: [
@@ -353,7 +353,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 337,
+    id: 433,
     subject: "service",
     question: "간선급행버스체계(BRT)의 운영을 위한 구성요소가 아닌 것은?",
     choices: [
@@ -364,7 +364,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 338,
+    id: 434,
     subject: "service",
     question: "차내 장치를 설치한 버스와 종합사령실을 유무선 네트워크로 연결해 버스의 위치나 사고정보 등을 버스회사와 운수종사자에게 실시간으로 전송하는 시스템을 무엇이라 하는가?",
     choices: [
@@ -375,7 +375,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 339,
+    id: 435,
     subject: "service",
     question: "버스와 정류장에 무선 송수신기를 설치하여 버스의 위치를 실시간으로 파악하고, 이를 이용해 이용자에게 실시간으로 버스운행정보를 제공하는 것은?",
     choices: [
@@ -386,7 +386,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 340,
+    id: 436,
     subject: "service",
     question: "다음 중 버스운행관리스시템(BMS)의 운영과 거리가 먼 것은?",
     choices: [
@@ -397,7 +397,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 341,
+    id: 437,
     subject: "service",
     question: "버스운행관리시스템의 기대효과 중 이용주체가 다른 하나는?",
     choices: [
@@ -408,7 +408,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 342,
+    id: 438,
     subject: "service",
     question: "버스전용차로로 설치에 있어 적절하지 않은 것은?",
     choices: [
@@ -419,7 +419,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 343,
+    id: 439,
     subject: "service",
     question: "도로 중앙에 설치된 중앙버스전용차로에 대한 설명으로 옳지 않은 것은?",
     choices: [
@@ -430,7 +430,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 344,
+    id: 440,
     subject: "service",
     question: "다음 중 중앙버스전용차로의 장점에 대한 설명으로 옳은 것은?",
     choices: [
@@ -441,7 +441,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 345,
+    id: 441,
     subject: "service",
     question: "다음 중 가로변버스전용차로의 특징으로 볼 수 없는 것은?",
     choices: [
@@ -452,7 +452,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 346,
+    id: 442,
     subject: "service",
     question: "교통카드 중에서 IC카드에 해당되지 않는 것은?",
     choices: [
@@ -463,7 +463,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 347,
+    id: 443,
     subject: "service",
     question: "교통카드시스템 구성 중 단말기의 구조장치에 해당하지 않는 것은?",
     choices: [
@@ -474,7 +474,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 348,
+    id: 444,
     subject: "service",
     question: "교통카드시스템의 집계시스템에 대한 설명으로 맞는 것은?",
     choices: [
@@ -485,7 +485,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 349,
+    id: 445,
     subject: "service",
     question: "처리된 모든 거래기록을 데이터베이스화하는 기능을 가진 시스템은?",
     choices: [
@@ -496,7 +496,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 350,
+    id: 446,
     subject: "service",
     question: "교통사고 조사규칙에 따른 교통사고의 용어에 대한 설명으로 잘못된 것은?",
     choices: [
@@ -507,7 +507,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 351,
+    id: 447,
     subject: "service",
     question: "교통사고 현장에서의 안전조치에 해당하지 않는 것은?",
     choices: [
@@ -518,18 +518,18 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 352,
+    id: 448,
     subject: "service",
     question: "사고현장의 측정 및 사진촬영을 위히 확인해야 할 사항이 아닌 것은?",
     choices: [
         "목격자에 대한 사고 상황",
         "사고지점의 위치",
         "사고현장에 대한 가로방향 및 세로방향의 길이",
-        "차량 및 노면에 나타나는 물리적 흔적 및 시서물 등의 위치"],
+        "차량 및 노면에 나타나는 물리적 흔적 및 시설물 등의 위치"],
     answer: 0
   },
   {
-    id: 353,
+    id: 449,
     subject: "service",
     question: "심장의 기능이 정지하거나 호흡이 멈추었을 때에 인공호흡과 흉부압박을 지속적으로 시행하는 응급처치방법은?",
     choices: [
@@ -540,7 +540,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 354,
+    id: 450,
     subject: "service",
     question: "버스에 발생하기 쉬운 사고유형과 대책에 대한 설명으로 부적절한 것은?",
     choices: [
@@ -551,7 +551,7 @@ export const serviceQuestions = [
     answer: 0
   },
   {
-    id: 355,
+    id: 451,
     subject: "service",
     question: "심폐소생술을 실시할 경우 가슴압박과 인공호흡의 적절한 비율은?",
     choices: [
@@ -562,7 +562,7 @@ export const serviceQuestions = [
     answer: 2
   },
   {
-    id: 356,
+    id: 452,
     subject: "service",
     question: "심폐소생술의 방법으로 옳지 않은 것은?",
     choices: [
@@ -573,7 +573,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 357,
+    id: 453,
     subject: "service",
     question: "교통사고 발생 시 운전자의 주치사항으로 버스회사, 보험사 또는 경찰 등에 연락 할 떄 우선적 연락해야 할 사항과 거리가 먼 것은?",
     choices: [
@@ -584,7 +584,7 @@ export const serviceQuestions = [
     answer: 1
   },
   {
-    id: 358,
+    id: 454,
     subject: "service",
     question: "재난 발생 시 운전자의 조치사항으로 부적절한 것은?",
     choices: [
@@ -595,7 +595,7 @@ export const serviceQuestions = [
     answer: 3
   },
   {
-    id: 359,
+    id: 455,
     subject: "service",
     question: "폭설 및 폭우로 운행이 불가능하게 된 경우의 조치사항으로 부적절한 것은?",
     choices: [
